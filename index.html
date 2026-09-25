@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechNova 2026 | Technical Symposium</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <div class="brand">TechNova <span>2026</span></div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#event">Event</a>
+    <a href="#register">Register</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-content">
+    <p class="eyebrow">SIR ISAAC NEWTON COLLEGE OF ENGINEERING AND TECHNOLOGY</p>
+    <h1>TechNova 2026</h1>
+    <h2>Technical Symposium</h2>
+    <p>Explore emerging technologies, present innovative ideas, and connect with students who share a passion for technology.</p>
+    <a class="btn" href="#register">Register Now</a>
+  </div>
+</section>
+
+<section id="event" class="section">
+  <div class="section-title">
+    <p class="eyebrow">EVENT INFORMATION</p>
+    <h2>Learn • Build • Innovate</h2>
+  </div>
+  <div class="info-grid">
+    <article class="card"><h3>📅 Date</h3><p>15 October 2026</p></article>
+    <article class="card"><h3>⏰ Time</h3><p>9:00 AM – 4:30 PM</p></article>
+    <article class="card"><h3>📍 Venue</h3><p>College Seminar Hall</p></article>
+    <article class="card"><h3>🎯 Category</h3><p>Educational / Technology Event</p></article>
+  </div>
+
+  <div class="two-column">
+    <div>
+      <h3>Event Description</h3>
+      <p>TechNova 2026 is a student-focused technical symposium featuring technology talks, project demonstrations, coding activities and idea sharing. The event encourages creativity, technical communication and problem-solving.</p>
+      <h3>Event Schedule</h3>
+      <ul class="schedule">
+        <li><b>09:00 AM</b> — Registration & Welcome</li>
+        <li><b>10:00 AM</b> — Technical Keynote</li>
+        <li><b>11:15 AM</b> — Coding Challenge</li>
+        <li><b>01:30 PM</b> — Project Expo</li>
+        <li><b>03:15 PM</b> — Results & Valedictory</li>
+      </ul>
+    </div>
+    <div class="highlight">
+      <h3>Why Participate?</h3>
+      <p>✓ Improve technical knowledge</p>
+      <p>✓ Present ideas and projects</p>
+      <p>✓ Develop communication skills</p>
+      <p>✓ Gain practical problem-solving experience</p>
+      <p>✓ Connect with fellow learners</p>
+    </div>
+  </div>
+</section>
+
+<section id="register" class="section register-section">
+  <div class="section-title">
+    <p class="eyebrow">ONLINE REGISTRATION</p>
+    <h2>Reserve Your Seat</h2>
+    <p>Fill in all mandatory fields. Your registration is stored locally in this demonstration website.</p>
+  </div>
+
+  <form id="registrationForm" novalidate>
+    <div class="form-grid">
+      <div class="field">
+        <label for="name">Participant Name *</label>
+        <input id="name" name="name" type="text" placeholder="Enter your full name">
+        <small class="error" id="nameError"></small>
+      </div>
+      <div class="field">
+        <label for="regNo">Register Number *</label>
+        <input id="regNo" name="regNo" type="text" placeholder="e.g., 821725205045">
+        <small class="error" id="regNoError"></small>
+      </div>
+      <div class="field">
+        <label for="dept">Department / Organization *</label>
+        <input id="dept" name="dept" type="text" placeholder="e.g., B.Tech IT">
+        <small class="error" id="deptError"></small>
+      </div>
+      <div class="field">
+        <label for="email">Email Address *</label>
+        <input id="email" name="email" type="email" placeholder="name@example.com">
+        <small class="error" id="emailError"></small>
+      </div>
+      <div class="field">
+        <label for="mobile">Mobile Number *</label>
+        <input id="mobile" name="mobile" type="tel" inputmode="numeric" maxlength="10" placeholder="10-digit mobile number">
+        <small class="error" id="mobileError"></small>
+      </div>
+      <div class="field">
+        <label for="year">Year of Study *</label>
+        <select id="year" name="year">
+          <option value="">Select year</option>
+          <option>First Year</option><option>Second Year</option>
+          <option>Third Year</option><option>Final Year</option>
+        </select>
+        <small class="error" id="yearError"></small>
+      </div>
+      <div class="field full">
+        <label for="eventChoice">Event Selection *</label>
+        <select id="eventChoice" name="eventChoice">
+          <option value="">Select an activity</option>
+          <option>Technical Talk</option>
+          <option>Coding Challenge</option>
+          <option>Project Expo</option>
+          <option>All Events</option>
+        </select>
+        <small class="error" id="eventChoiceError"></small>
+      </div>
+    </div>
+    <button class="btn submit-btn" type="submit">Submit Registration</button>
+    <div id="successMessage" class="success" role="status"></div>
+  </form>
+</section>
+
+<section id="contact" class="section contact">
+  <div class="section-title">
+    <p class="eyebrow">CONTACT</p>
+    <h2>Need Help?</h2>
+  </div>
+  <div class="contact-card">
+    <p><b>Organizer:</b> Skill Development Cell</p>
+    <p><b>Institution:</b> Sir Isaac Newton College of Engineering and Technology</p>
+    <p><b>Location:</b> Pappakovil – Nagapattinam</p>
+    <p><b>Email:</b> techsupport@example.com</p>
+  </div>
+</section>
+</main>
+
+<footer>© 2026 TechNova Technical Symposium • Student Web Development Project</footer>
+<script src="script.js"></script>
+</body>
+</html>
